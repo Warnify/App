@@ -35,7 +35,7 @@ export default async function Updates() {
       </section>
 
       <Posts posts={posts} />
-      <Cta />
+      
     </>
   );
 }

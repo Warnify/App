@@ -8,14 +8,14 @@ import PageHeader from "@/components/page-header";
 export default function Contact() {
   return (
     <section>
-      <div className="pt-32 pb-12 md:pt-44 md:pb-20">
+      <div className="pt-32 pb-12 md:pt-44 md:pb-20 ">
         <div className="px-4 sm:px-6">
           <PageHeader
             className="mb-12 md:mb-20"
             title="Get in touch"
             description="Fill out the form below to set up a call, or keep reading to get in touch with us for customer support, partnerships, or media enquiries."
           >
-            Contact us
+            Contact us  
           </PageHeader>
 
           {/* Contact form */}

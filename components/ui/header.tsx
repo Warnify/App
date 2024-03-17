@@ -27,9 +27,11 @@ export default function Header() {
                   />
                 </svg>
               </Link>
+              <h1 className="flex justify-start font-bold text-indigo-300 font-mono uppercase ml-12 mb-8">Warnify</h1>
             </div>
             {/* Navigation links */}
             <nav className="flex justify-center">
+              
               <ul className="flex items-center sm:gap-x-3 text-sm font-medium">
                 <li>
                   <Link
