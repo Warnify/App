@@ -91,6 +91,6 @@ async def predict(data: InputData):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/api/hello")
-def hello():
-    return "Hello, FastAPI!"
+@app.get("/api/test")
+def test():
+    return "Test server endpoint!"
