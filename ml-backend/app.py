@@ -10,6 +10,7 @@ import uvicorn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 
 # Get current directory
 import os
@@ -28,6 +29,21 @@ tfidf_vectorizer = joblib.load(tfidf_vectorizer_path)
 
 # Define FastAPI instance
 app = FastAPI()
+
+# CORS settings
+origins = [
+    "http://localhost",
+    "https://warnify.vercel.app/", 
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["Authorization", "Content-Type"],
+)
+
 
 def preprocess_text(text):
     # Convert text to lowercase
