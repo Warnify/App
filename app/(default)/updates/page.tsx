@@ -1,9 +1,3 @@
-{
-  /*
-Note: This code includes an example of how to fetch data from an external JSON file that is hosted at https://raw.githubusercontent.com/cruip/cruip-dummy/main/waitlist-posts.json. To facilitate this, we've included a lib directory in the root which contains a function that can fetch the JSON content. Additionally, we've defined the Post types in the types.d.ts file located in the root.
-*/
-}
-
 import getAllPosts from "@/lib/getAllPosts";
 
 export const metadata = {
@@ -26,7 +20,7 @@ export default async function Updates() {
           <div className="px-4 sm:px-6">
             <PageHeader
               title="News & Updates"
-              description="Rank and score updates and feature requests so you know you're working on the most impactful things."
+              description="See the latest changes with Warnify!"
             >
               What's New
             </PageHeader>

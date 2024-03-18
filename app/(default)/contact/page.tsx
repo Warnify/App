@@ -8,12 +8,12 @@ import PageHeader from "@/components/page-header";
 export default function Contact() {
   return (
     <section>
-      <div className="pt-32 pb-12 md:pt-44 md:pb-20 ">
+      <div className="pt-32 pb-12 md:pt-44 md:pb-12 ">
         <div className="px-4 sm:px-6">
           <PageHeader
             className="mb-12 md:mb-20"
             title="Get in touch"
-            description="Fill out the form below to set up a call, or keep reading to get in touch with us for customer support, partnerships, or media enquiries."
+            description="Have questions? Fill out the form below to reach out to us!"
           >
             Contact us  
           </PageHeader>
@@ -136,83 +136,6 @@ export default function Contact() {
                   </div>
                 </div>
               </form>
-            </div>
-          </div>
-          {/* Cards */}
-          <div className="max-w-xs md:max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-6 xl:gap-9 xl:mx-8 max-md:-mx-3">
-              {/* Card */}
-              <div className="flex flex-col rounded-lg bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 p-5">
-                <div className="grow mb-3">
-                  <div className="font-inter-tight font-semibold text-gray-800 dark:text-gray-200 mb-1">
-                    Email
-                  </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-500">
-                    Email us your queries and we'll get back to you ASAP.
-                  </p>
-                </div>
-                <div className="flex items-center space-x-2.5">
-                  <svg
-                    className="shrink-0 fill-indigo-500/80"
-                    width={16}
-                    height={16}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M8 0a8 8 0 1 0 3.2 15.335l.916-.4-.8-1.833-.916.4A6 6 0 1 1 14 8v1a1 1 0 1 1-2 0V8a4.033 4.033 0 1 0-1.286 2.92A2.987 2.987 0 0 0 16 9V8a8.009 8.009 0 0 0-8-8Zm0 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z" />
-                  </svg>
-                  <div className="text-sm text-gray-800 dark:text-gray-200">
-                    hello@cruip.com
-                  </div>
-                </div>
-              </div>
-              {/* Card */}
-              <div className="flex flex-col rounded-lg bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 p-5">
-                <div className="grow mb-3">
-                  <div className="font-inter-tight font-semibold text-gray-800 dark:text-gray-200 mb-1">
-                    Phone
-                  </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-500">
-                    Would you like to have a chat? Feel free to give us a call.
-                  </p>
-                </div>
-                <div className="flex items-center space-x-2.5">
-                  <svg
-                    className="shrink-0 fill-indigo-500/80"
-                    width={12}
-                    height={16}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M10 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM2 13V3h8v10H2Z" />
-                  </svg>
-                  <div className="text-sm text-gray-800 dark:text-gray-200">
-                    +447359510000
-                  </div>
-                </div>
-              </div>
-              {/* Card */}
-              <div className="flex flex-col rounded-lg bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 p-5">
-                <div className="grow mb-3">
-                  <div className="font-inter-tight font-semibold text-gray-800 dark:text-gray-200 mb-1">
-                    Address
-                  </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-500">
-                    Prefer to visit? We're located in London, United Kingdom.
-                  </p>
-                </div>
-                <div className="flex items-center space-x-2.5">
-                  <svg
-                    className="shrink-0 fill-indigo-500/80"
-                    width={14}
-                    height={16}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M5.591 15.069c.404.358.684.606.709.631.4.4 1 .4 1.4.1.05-.05 1.075-.975 2.1-1.9 1.025-.925 2.05-1.85 2.1-1.9 1.4-1.3 2.1-3.1 2.1-5 0-3.9-3.1-7-7-7S0 3.1 0 7c0 1.9.7 3.7 2.1 4.9 0 .075 2.293 2.107 3.491 3.169ZM7 13.7l-3.4-3C2.6 9.7 2 8.4 2 7c0-2.8 2.2-4.9 5-4.9s5 2.2 5 5c0 1.4-.6 2.6-1.6 3.6l-3.4 3ZM9 7a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" />
-                  </svg>
-                  <div className="text-sm text-gray-800 dark:text-gray-200">
-                    London, SW1Y 4AH, UK
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
