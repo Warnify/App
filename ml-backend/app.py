@@ -33,7 +33,10 @@ app = FastAPI()
 # CORS settings
 origins = [
     "http://localhost",
-    "https://warnify.vercel.app/", 
+    "https://warnify.vercel.app/",
+    "https://warnify.vercel.app",
+    "https://warnify-lnw6wq4ni-shoaibkhans-projects.vercel.app/",
+    "https://warnify-lnw6wq4ni-shoaibkhans-projects.vercel.app",
 ]
 
 app.add_middleware(
@@ -89,3 +92,7 @@ async def predict(data: InputData):
         return {"prediction": prediction}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/hello")
+def hello():
+    return "What it dooo"
