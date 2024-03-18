@@ -33,9 +33,7 @@ app = FastAPI()
 # CORS settings
 origins = [
     "http://localhost",
-    "https://warnify.vercel.app/",
     "https://warnify.vercel.app",
-    "https://warnify-lnw6wq4ni-shoaibkhans-projects.vercel.app/",
     "https://warnify-lnw6wq4ni-shoaibkhans-projects.vercel.app",
 ]
 
@@ -43,7 +41,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_methods=["GET", "POST"],
     allow_headers=["Authorization", "Content-Type"],
 )
 
@@ -95,4 +93,4 @@ async def predict(data: InputData):
 
 @app.get("/api/hello")
 def hello():
-    return "What it dooo"
+    return "Hello, FastAPI!"
