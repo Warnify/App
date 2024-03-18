@@ -27,9 +27,11 @@ export default function Header() {
                   />
                 </svg>
               </Link>
+              <h1 className="flex justify-start font-bold text-indigo-300 font-mono uppercase ml-12 mb-8">Warnify</h1>
             </div>
             {/* Navigation links */}
             <nav className="flex justify-center">
+              
               <ul className="flex items-center sm:gap-x-3 text-sm font-medium">
                 <li>
                   <Link
@@ -52,7 +54,7 @@ export default function Header() {
                     className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 transition-colors py-1.5 px-3"
                     href="/contact"
                   >
-                    Contact us
+                    Contact Us
                   </Link>
                 </li>
               </ul>

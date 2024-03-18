@@ -9,21 +9,13 @@ export default function Footer() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center py-8">
             <p className="text-sm text-gray-700 dark:text-gray-400">
-              © Waitlist - A more meaningful home for software. Built by{" "}
+              © Warnify - Your AI cybersecurity companion. Built by{" "}
               <a
                 className="font-medium text-indigo-500 hover:underline"
-                href="https://twitter.com/pacovitiello"
+                href="https://github.com/Warnify"
                 target="_blank"
               >
-                @pacovitiello
-              </a>{" "}
-              &amp;{" "}
-              <a
-                className="font-medium text-indigo-500 hover:underline"
-                href="https://twitter.com/DavidePacilio"
-                target="_blank"
-              >
-                @davidepacilio.
+                @Warnify
               </a>
             </p>
           </div>
