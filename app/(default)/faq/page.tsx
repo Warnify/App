@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Faq - Creative",
-  description: "Page description",
+  title: "FAQ",
+  description: "FAQ Page",
 };
 
 import PageHeader from "@/components/page-header";

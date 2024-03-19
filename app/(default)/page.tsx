@@ -3,7 +3,7 @@ import SMSFraud from "@/public/images/SMS-fraud-img.jpeg";
 
 export const metadata = {
   title: "Warnify: Prevent SMS Fraud",
-  description: "Page description",
+  description: "Home Page",
 };
 
 import PageHeader from "@/components/page-header";
@@ -23,9 +23,11 @@ export default function Home() {
               links, replying to unsolicited messages, and providing any personal information via SMS. Although service providers implement security measures to detect and prevent SMS fraud, countless
               people get scammed daily by sharing bank information, passwords, social insurance numbers, etc. Check if your SMS is fraudulent by submitting the text message in the search engine below.
             </p>
-            <button className="btn w-60 h-16 mt-4 ml-16 text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 border-spacing-2 border-white">
-              Why WARNIFY
-            </button>
+            <a href="/why_warnify">
+              <button className="btn w-60 h-16 mt-4 ml-16 text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 border-spacing-2 border-white">
+                Why WARNIFY
+              </button>
+            </a>
           </div>
           <div>
             <Image
