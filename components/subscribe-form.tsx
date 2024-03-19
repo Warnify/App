@@ -9,7 +9,7 @@ export default function SubscribeForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/predict/", {
+      const response = await fetch("https://backend-etxi.onrender.com/api/predict/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
