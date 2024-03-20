@@ -1,8 +1,8 @@
 import getAllPosts from "@/lib/getAllPosts";
 
 export const metadata = {
-  title: "Updates - Creative",
-  description: "Page description",
+  title: "Updates",
+  description: "Updates Page",
 };
 
 import PageHeader from "@/components/page-header";

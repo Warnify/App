@@ -27,12 +27,20 @@ export default function Header() {
                   />
                 </svg>
               </Link>
-              <h1 className="flex justify-start font-bold text-indigo-300 font-mono uppercase ml-12 mb-8">Warnify</h1>
             </div>
+           
+            <h1 className="absolute ml-8 justify-start font-bold text-indigo-300 font-mono uppercase px-2">Warnify</h1>
             {/* Navigation links */}
-            <nav className="flex justify-center">
-              
+            <nav className="flex">
               <ul className="flex items-center sm:gap-x-3 text-sm font-medium">
+                <li>
+                  <Link
+                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-3"
+                    href="/why_warnify"
+                  >
+                    Why Warnify
+                  </Link>
+                </li>
                 <li>
                   <Link
                     className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-3"
