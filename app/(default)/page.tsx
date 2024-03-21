@@ -12,24 +12,24 @@ import SubscribeForm from "@/components/subscribe-form";
 export default function Home() {
   return (
     <><section>
-      <div className="py-12 mt-12 pl-8 md:pt-44 md:pb-20 text-start">
+      <div className="py-12 mt-12 pl-8 md:pt-44 md:pb-20 text-center sm:text-start">
         <div className="flex sm:px-6">
           <div>
-            <h1 className="pr-40 font-inter-tight text-5xl md:text-6xl font-bold text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-b dark:from-indigo-200 dark:to-gray-200 pb-4">
+            <h1 className="pr-12 font-inter-tight text-3xl sm:text-6xl font-bold text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-b dark:from-indigo-200 dark:to-gray-200 pb-4">
               Welcome to Warnify, the Best SMS Fraud Checker
             </h1>
-            <p className="text-lg mt-6 mb-12 pr-56 text-gray-700 dark:text-gray-400">
+            <p className="text-sm sm:text-lg mt-6 mb-12 pr-12 text-gray-700 dark:text-gray-400">
               With Warnify, now you can protect yourself against one of the biggest cyber crimes out there: SMS Fraud or better known as Smishing. Generally, users should be cautious about clicking
               links, replying to unsolicited messages, and providing any personal information via SMS. Although service providers implement security measures to detect and prevent SMS fraud, countless
               people get scammed daily by sharing bank information, passwords, social insurance numbers, etc. Check if your SMS is fraudulent by submitting the text message in the search engine below.
             </p>
             <a href="/why_warnify">
-              <button className="btn w-60 h-16 mt-4 ml-16 text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 border-spacing-2 border-white">
+              <button className="btn w-40 sm:w-60 h-16 mt-4 mr-12 sm:ml-16 text-md sm:text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 border-spacing-2 border-white">
                 Why WARNIFY
               </button>
             </a>
           </div>
-          <div>
+          <div className="hidden md:block">
             <Image
               className="justify-end mt-16 mr-96 rounded-full"
               src={SMSFraud}
@@ -39,17 +39,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="px-4 md:hidden">
+            <Image
+              className="justify-end mb-8 rounded-full"
+              src={SMSFraud}
+              width={700}
+              height={700}
+              alt="SMS Fraud text msg" />
+          </div>
     </section>
     
     <section>
       <div className="bg-white dark:bg-gray-700/35 py-1">
         <div className="text-center mt-20 mb-20">
-          <h1 className="text-5xl md:text-5xl font-bold text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-b dark:from-indigo-200 dark:to-gray-200 pb-4">
+          <h1 className="text-3xl sm:text-5xl font-bold text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-b dark:from-indigo-200 dark:to-gray-200 pb-4">
             Here is how <span className="text-gray-700 dark:text-gray-500">we</span> do it
           </h1>
-          <p className="text-sm text-gray-500">
+          <p className="text-xs sm:text-sm text-gray-500">
             Steps we take to make sure{" "}
-            <span className="text-gray-700 dark:text-gray-200 font-medium">
+            <span className="text-gray-700 dark:text-gray-200 font-medium sm:font-small">
               you
             </span>{" "}
             stay safe.
@@ -80,10 +88,10 @@ export default function Home() {
   
       <SubscribeForm></SubscribeForm>
       <div className="flex justify-center mb-12">
-        <div className="w-60 h-16 text-center rounded-lg mt-4 pt-5 text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-red-700/85 dark:hover:bg-red-700/95 border-spacing-2 border-white">
+        <div className="w-40 sm:w-60 h-16 text-center rounded-lg mt-4 pt-5 text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-red-700/85 dark:hover:bg-red-700/95 border-spacing-2 border-white">
           FRAUD
         </div>
-        <div className="w-60 h-16 text-center rounded-lg mt-4 ml-12 pt-5 text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-green-600/85 dark:hover:bg-green-600/95 border-spacing-2 border-white">
+        <div className="w-40 sm:w-60 h-16 text-center rounded-lg mt-4 ml-12 pt-5 text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-green-600/85 dark:hover:bg-green-600/95 border-spacing-2 border-white">
           LEGITIMATE
         </div>
       </div>
