@@ -29,13 +29,13 @@ export default function Header() {
               </Link>
             </div>
            
-            <h1 className="absolute ml-8 justify-start font-bold text-indigo-300 font-mono uppercase px-2">Warnify</h1>
+            <h1 className="absolute text-sm md:text-lg ml-8 justify-start font-bold text-indigo-300 font-mono uppercase px-2">Warnify</h1>
             {/* Navigation links */}
             <nav className="flex">
-              <ul className="flex items-center sm:gap-x-3 text-sm font-medium">
+              <ul className="flex items-center text-xs font-light sm:gap-x-3 sm:font-medium">
                 <li>
                   <Link
-                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-3"
+                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-2 md:px-3"
                     href="/why_warnify"
                   >
                     Why Warnify
@@ -43,7 +43,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-3"
+                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-2 md:px-3"
                     href="/updates"
                   >
                     Updates
@@ -51,7 +51,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 transition-colors py-1.5 px-3"
+                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 transition-colors py-1.5 px-2 md:px-3"
                     href="/faq"
                   >
                     FAQ
@@ -59,7 +59,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 transition-colors py-1.5 px-3"
+                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 transition-colors py-1.5 px-2 md:px-3"
                     href="/contact"
                   >
                     Contact Us
