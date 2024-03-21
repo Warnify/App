@@ -45,7 +45,7 @@ export default function Why_Warnify() {
             <div className="bg-blue-500 rounded-lg px-12 py-12 mx-20 my-12">
                 <h1 className="bg-blue-700/70 font-inter-tight rounded-full py-4 pl-8 ml-10">Hello Amanda, your FEDEX package with tracking code GB-6412-GH83 is waiting for you to set delivery preferences: http://fedex-login.com</h1>
                 <h1 className="bg-red-700/95 font-inter-tight rounded-full uppercase py-2 pl-4 mt-4 mr-32">Fraud Alert</h1>
-                <h1 className="bg-blue-700/70 text-blue-800/95 font-inter-tight rounded-full uppercase py-2 pl-4 mt-56">Enter text...</h1>
+                <h1 className="bg-blue-700/70 text-blue-800 font-inter-tight rounded-full uppercase py-2 pl-4 mt-56">Enter text...</h1>
 
 
             </div>
