@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 import PageHeader from "@/components/page-header";
-import Cta from "@/components/cta";
+// import Cta from "@/components/cta";
 import Posts from "@/app/(default)/updates/posts";
 
 export default async function Updates() {

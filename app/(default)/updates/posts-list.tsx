@@ -33,16 +33,16 @@ export default function PostsList({
               <p className="text-gray-600 dark:text-gray-500">{post.content}</p>
             </div>
             <footer className="flex items-center space-x-3">
-              <img
+              {/* <img
                 className="shrink-0 rounded-full"
                 src={post.authorImage}
                 width={32}
                 height={32}
                 alt={post.author}
-              />
-              <div className="text-sm font-medium text-gray-800 dark:text-gray-200">
+              /> */}
+              {/* <div className="text-sm font-medium text-gray-800 dark:text-gray-200">
                 {post.author}
-              </div>
+              </div> */}
             </footer>
           </article>
         );
