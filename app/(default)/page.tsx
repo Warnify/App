@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <section>
-        <div className="py-12 mt-12 pl-8 md:pt-44 md:pb-20 text-center sm:text-start">
-          <div className="flex sm:px-6">
+        <div className="py-12 mt-12 md:pt-44 text-center sm:text-start">
+          <div className="flex sm:px-6 mx-80">
             <div>
               <h1 className="pr-12 font-inter-tight text-3xl sm:text-6xl font-bold text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-b dark:from-indigo-200 dark:to-gray-200 pb-4">
                 Welcome to Warnify, the Best SMS Fraud Checker
