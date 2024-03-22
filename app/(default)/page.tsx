@@ -31,11 +31,11 @@ export default function Home() {
                 fraudulent by submitting the text message in the search engine
                 below.
               </p>
-              <a href="/why_warnify">
+              {/* <a href="/why_warnify">
                 <button className="btn w-40 sm:w-60 h-16 mt-4 mr-12 sm:ml-16 text-md sm:text-lg font-bold font-inter-tight text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 border-spacing-2 border-white">
                   Why WARNIFY
                 </button>
-              </a>
+              </a> */}
             </div>
             <div className="hidden md:block">
               <Image

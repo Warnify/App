@@ -33,14 +33,14 @@ export default function Header() {
             {/* Navigation links */}
             <nav className="flex">
               <ul className="flex items-center text-xs font-light sm:gap-x-3 sm:font-medium">
-                <li>
+                {/* <li>
                   <Link
                     className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-2 md:px-3"
                     href="/why_warnify"
                   >
                     Why Warnify
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-2 md:px-3"
